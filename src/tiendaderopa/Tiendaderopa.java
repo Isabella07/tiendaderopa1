@@ -2,7 +2,7 @@
 package tiendaderopa;
 
     import java.util.Date; 
-    public class Tiendaderopa {
+    public class TiendaDeRopa {
         
         private int numeroProveedores;
         private boolean publicidad;
@@ -10,7 +10,7 @@ package tiendaderopa;
         private Date fechaFundacion;
         private boolean calidad;
 
-        public Tiendaderopa(int numeroProveedores, boolean publicidad, int ganancias, Date fechaFundacion, boolean calidad) {
+        public TiendaDeRopa(int numeroProveedores, boolean publicidad, int ganancias, Date fechaFundacion, boolean calidad) {
             this.numeroProveedores = numeroProveedores;
             this.publicidad = publicidad;
             this.ganancias = ganancias;
